@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 50vh;
+    position: relative;
+}
+
+.container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.suivant, .precedant {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%) ;
+}
